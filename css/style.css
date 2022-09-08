@@ -35,37 +35,40 @@
         -ms-flex-align: end;
             align-items: flex-end;
   }
-.navbar1 a {
-    padding: 1.5rem;
-    font-size: 0.5rem;
-    background: #1a1a1a;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    color: #fff;
+
+  
+  .card{
+   position: relative;
+   overflow: hidden;
+   
+  }
+  .card-img-top {
+    display: block;
+    transition: 0.5s;
+    height: 250px;
+    
+  }
+  
+  .card-body{
+    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    height: 0;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:0 40px;
     text-align: center;
-    -webkit-transition: .2s linear;
-    transition: .2s linear;
+    transition: height 0.5s;
   }
-  
-  .navbar1 a i {
-    color: crimson;
-    padding-right: 0.5rem;
+  .card:hover .card-body {
+   height: 100%;
+   
   }
-  
-  
-  #card:hover{
-    background-color: #040404;
+  .card-img-top:hover {
+    transform: scale(1.1);
+  }
+  .card:hover {
     cursor: pointer;
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-  #left-border{
-    border-left: .2rem solid white;
-  }
-  #mywork-card:hover{
-    background-color: #040404;
-    cursor: pointer;
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
   }
