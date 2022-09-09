@@ -22,19 +22,7 @@
     background: crimson;
     padding: 0.5rem;
 }
-.navbar1 {
-    
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    z-index: 1000;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-  }
+
   #left-border {
     border-left: 0.1rem solid white;
   }
