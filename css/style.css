@@ -35,21 +35,23 @@
         -ms-flex-align: end;
             align-items: flex-end;
   }
-
+  #left-border {
+    border-left: 0.1rem solid white;
+  }
   
-  .card{
+  .work{
    position: relative;
    overflow: hidden;
    
   }
-  .card-img-top {
+  .work-img-top {
     display: block;
     transition: 0.5s;
     height: 350px;
     
   }
   
-  .card-body{
+  .work-body{
     background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
     height: 0;
     position: absolute;
