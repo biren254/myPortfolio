@@ -93,17 +93,17 @@
                         </div>
                     </div>
                     <div class="col-md-8">
-                        <form action="#" onsubmit="return validation()" class="ms-2 mt-4" id="form">
+                        <form action="https://formspree.io/f/xnqrvnle" onsubmit="return validation()" class="ms-2 mt-4" id="form" method="post">
                             <div class="">
                                 <div class="row">
                                     <div class="col">
                                         <input type="text" class="form-control rounded-pill bg-dark text-white"
-                                            placeholder="Your Name" aria-label="Your Name" id="username">
+                                            placeholder="Your Name" aria-label="Your Name" id="username" name="username" >
                                         <span id="user" class="text-danger"></span>
                                     </div>
                                     <div class="col">
                                         <input type="number" class="form-control rounded-pill bg-dark text-white"
-                                            placeholder="Your Number" aria-label="Your Number" id="number">
+                                            placeholder="Your Number" aria-label="Your Number" id="number" name="contact">
                                         <span id="mnumber" class="text-danger"></span>
                                     </div>
                                 </div>
@@ -112,19 +112,19 @@
                                 <div class="row">
                                     <div class="col">
                                         <input type="email" class="form-control rounded-pill bg-dark text-white"
-                                            placeholder="Your Email" aria-label="Your Email" id="email">
+                                            placeholder="Your Email" aria-label="Your Email" id="email" name="Email">
                                         <span id="emails" class="text-danger"></span>
                                     </div>
                                     <div class="col">
                                         <input type="text" class="form-control rounded-pill bg-dark text-white"
-                                            placeholder="Your Subject" aria-label="Your Subject" id="subject">
+                                            placeholder="Your Subject" aria-label="Your Subject" id="subject" name="subject">
                                         <span id="subjects" class="text-danger"></span>
                                     </div>
                                 </div>
                             </div>
                             <div>
                                 <textarea class="form-control mt-3 bg-dark text-white" id="FormControlTextarea1"
-                                    rows="7" placeholder="Type your massage here...."></textarea>
+                                    rows="7" placeholder="Type your massage here...." name="massage"></textarea>
                                 <span id="message" class="text-danger"></span>
                             </div>
                             <button type="submit" class="btn btn-danger mt-4 rounded-pill">send massage</button>
