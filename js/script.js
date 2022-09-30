@@ -23,15 +23,15 @@ function validation(){
 
 
     if (number == "") {
-        document.getElementById("mnumber").innerHTML = " *Please fill the number"
+        document.getElementById("mNumber").innerHTML = " *Please fill the number"
         return false ;
     }
     if (isNaN(number)){
-        document.getElementById("mnumber").innerHTML = " *Please write a valid Number"
+        document.getElementById("mNumber").innerHTML = " *Please write a valid Number"
         return false ;
     }
     if (number.length != 10){
-        document.getElementById("mnumber").innerHTML = " *Please write a valid Number"
+        document.getElementById("mNumber").innerHTML = " *Please write a valid Number"
         return false ;
     }
 
