@@ -8,7 +8,7 @@ front-end: HTML, CSS, Bootstrap
 
 ## This project is created using:
 
-- [x] JavaSript
+- [x] JavaScript
 - [x] Formspree
 
 ## Future Features
